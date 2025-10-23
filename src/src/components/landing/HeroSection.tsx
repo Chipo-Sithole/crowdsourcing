@@ -83,7 +83,7 @@ export const HeroSection: React.FC = () => {
                 <span className="bg-[#34d399] text-white text-[10px] px-2 py-0.5 rounded-md shadow">Sign • 99%</span>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
 

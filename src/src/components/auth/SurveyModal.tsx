@@ -19,7 +19,8 @@ export const SurveyModal: React.FC<SurveyModalProps> = ({
   const [currentStep, setCurrentStep] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
-  // Form state
+  
+  //form states
   const [role, setRole] = useState<UserRole | null>(null);
   const [position, setPosition] = useState<string[]>([]);
   const [education, setEducation] = useState('');
